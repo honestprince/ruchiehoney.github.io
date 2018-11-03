@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>SendIT :: My Account</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <div class="menu" id="mainMenu">
+      <a href="index.html" class="brand">SendIT</a>
+      <a href="admin.html">Admin</a>
+      <a href="cart.html" class="active">Cart(5)</a>
+      <a href="parcel_order.html">Parcel Order</a>
+      <a href="signup.html">Signup</a>
+      <a href="login.html">Login</a>
+      <a href="my_account.html"><img src="images/user-icon.png" title="My Account"></a>
+      <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+      <!--&#9776; is the code for the 3 line menu button-->
+    </div>
+    <div class="section values">
+        <div class="container">
+          <div class="row">
+            
+            <h1>
+              USER PROFILE
+            </h1>
+
+            <form>
+            <hr>
+            <h4>
+                Change Delivery Details
+            </h4>
+              <div class="row">
+                <div class="six columns offset-by-three">
+                  <label for="name" class="u-pull-left"></label>
+                  <input class="u-full-width" type="text" 
+                  placeholder="Enter new delivery location" id="name" required="">
+                </div>
+              <div class="twelve">
+                <input type="submit" class="button button-primary"  
+                value="Change Location">
+              </div>
+              
+              <div class="row">
+                  <div class="six columns offset-by-three">
+                    <label for="name" class="u-pull-left"></label>
+                    <input class="u-full-width" type="text" 
+                    placeholder="Enter current status parcel" id="name" required="">
+                  </div>
+                <div class="twelve">
+                  <input type="submit" class="button button-primary"  
+                  value="change status">
+                </div>
+                <div class="row">
+                    <div class="six columns offset-by-three">
+                      <label for="name" class="u-pull-left"></label>
+                      <input class="u-full-width" type="text" 
+                      placeholder="Change delivery time" id="name" required="">
+                    </div>
+                  <div class="twelve">
+                    <input type="submit" class="button button-primary"  
+                    value="Change delivery time">
+                  </div>
+            </form>
+            <hr>
+            <br>
+            <div>
+                <h2>Shopping Cart</h2>
+                <br>
+                  <table>
+                      <caption>List Of Iteams In Your Cart</caption>
+                      <tr>
+                        <th>Iteam</th>
+                        <th>Location</th>
+                        <th>ID No.</th>
+                        <th>Price</th>
+                        <th>Delivery Date</th>
+                        <th>Delivery Status</th>
+                      </tr>
+                      <tr>
+                        <td>iPhone 6</td>
+                        <td>From Lagos To PH</td>
+                        <td>DX87565567</td>
+                        <td>NGN 5,000</td>
+                        <td>25/12/2018</td>
+                        <td>Pending</td>
+                      </tr>
+                      <tr>
+                        <td>Laptop</td>
+                        <td>From Lagos To PH</td>
+                        <td>DX87565567</td>
+                        <td>NGN 5,000</td>
+                        <td>25/12/2018</td>
+                        <td>Pending</td>
+                      </tr>
+                      <tr>
+                        <td>Xmas Flowers</td>
+                        <td>From Lagos To PH</td>
+                        <td>DX87565567</td>
+                        <td>NGN 5,000</td>
+                        <td>25/12/2018</td>
+                        <td>Pending</td>
+                        </tr>
+                    </table>
+                    <br>
+            </div>
+             
+              <h5>Once an order has been cancelled, the order can no longer be sent and, if you are still interested, kindly request that the order is placed again. <br>Thank you
+              </h5>
+    
+            <div class="row">
+                <div class="twelve">
+                  <input type="submit" class="button button-primary"  
+                  value="Cancel Order">
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

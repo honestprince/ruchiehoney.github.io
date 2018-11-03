@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>SendIT :: Parcel Order</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <div class="menu" id="mainMenu">
+    <a href="index.html" class="brand">SendIT</a>
+    <a href="admin.html">Admin</a>
+    <a href="cart.html">Cart(5)</a>
+    <a href="parcel_order.html" class="active">Parcel Order</a>
+    <a href="signup.html">Signup</a>
+    <a href="login.html">Login</a>
+    <a href="my_account.html"><img src="images/user-icon.png" title="My Account"></a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+    <!--&#9776; is the code for the 3 line menu button-->
+  </div>
+  <div class="section hero">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h4 class="hero-heading">
+              Guarantee Worldwide Delivery.
+            </h4>
+            <h5>
+              Create Order.
+            </h5>
+          </div>
+          <div class="one-half column phones">
+            <img class="phone" src="images/parcel.png">
+            <img class="phone" src="images/parcel.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section values">
+        <div class="container">
+          <div class="row">
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <label for="email" class="u-pull-left">Email</label>
+                <input class="u-full-width" type="email" 
+                placeholder="test@mailbox.com" id="email" required="">
+              </div>
+              <div class="six columns">
+                  <label for="password" class="u-pull-left">Name</label>
+                  <input class="u-full-width" type="text" id="password" placeholder="Your name" required="">
+                </div>
+            </div>
+            <div class="row">
+              <div class="four columns offset-by-two">
+                <label for="pickup-location" class="u-pull-left">
+                  Pickup Location
+                </label>
+                <input type="text" name="pickup-location" id="pickup-location" class="u-full-width" placeholder="Here" required="">
+              </div>
+              <div class="four columns">
+                <label for="destination" class="u-pull-left">
+                  Destination
+                </label>
+                <input class="u-full-width" type="text" 
+                placeholder="Nowhere" id="destination" required="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="twelve">
+                <input type="submit" class="button button-primary" 
+                value="Send">
+              </div>
+            </div>
+          </form>
+        </div>
+       </div>
+     </div>
+    <footer>
+        <div class="quick">
+          <span><p class="row">Go to <a href="parcel_order.html">Top</a></p></span>
+          <span class="hide-xs hide-sm">&copy; 2018 SendIT. All Rights Reserved | By signing up you are agreeing to our <a href="#"></a>Privacy Policy</a></span>
+        </div>
+    </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
